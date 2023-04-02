@@ -1,0 +1,82 @@
+body {
+    font-size: 14px;
+    font-family: arial;
+    line-height: 23px;
+    background: lightgray;
+}
+
+#wp-form-login{
+    width: 290px;
+    background: white;
+    border-radius: 9px;
+    padding: 30px 20px 20px 20px;
+    margin: 190px auto;
+    text-align: center;
+}
+
+#wp-form-signup{
+    width: 455px;
+    background: white;
+    border-radius: 9px;
+    padding: 30px 20px 20px 20px;
+    margin: 190px auto;
+    text-align: center;
+}
+#form-signup #fullname, #form-signup #username, #form-signup #password , #form-signup #rules, #form-signup #email {display: block;
+    display: block;
+    padding: 10px 22px;
+    width: 415px;
+    margin-bottom: 9px;
+    background: lightgrey;
+    border: none
+   
+}
+#form-login #username, #form-login #password , #form-login #rules, #form-login #email {display: block;
+    display: block;
+    padding: 10px 22px;
+    width: 100%;
+    margin-bottom: 9px;
+    background: lightgrey;
+    border: none
+   
+}
+
+h1.page_title {
+    font-size: 17px;
+    padding: 0px 0px 20px;
+}
+#form-signup #submit {display: block;
+    display: block;
+    width: 100%;
+    
+    margin-bottom: 9px;
+    background: black;
+    opacity: 0.8;
+    border:none;
+    color:white;
+    padding: 10px 0px;
+    cursor: pointer;
+
+}
+#form-login #submit {display: block;
+    display: block;
+    width: 100%;
+    
+    margin-bottom: 9px;
+    background: black;
+    opacity: 0.8;
+    border:none;
+    color:white;
+    padding: 10px 0px;
+    cursor: pointer;
+
+}
+#lost_pass {
+    color:darkblue;
+    text-decoration: underline;
+}
+
+p.error {
+   
+        color:red;
+    }
